@@ -275,6 +275,10 @@
 }
 
 @media (max-width: 800px) {
+    .grid-title-mobile, .grid-description-mobile {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
     .intro-content, .grid {
       grid-template-columns: 1fr;
     }
